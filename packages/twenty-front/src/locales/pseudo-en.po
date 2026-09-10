@@ -181,7 +181,7 @@ msgstr ""
 #. placeholder {0}: audiencePreview.sendable
 #. placeholder {1}: formatNumber(audiencePreview.sendable)
 #. placeholder {2}: formatNumber(audiencePreview.sendable)
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 msgid "{0, plural, one {{1} recipient} other {{2} recipients}}"
 msgstr ""
 
@@ -216,6 +216,18 @@ msgstr ""
 #. placeholder {2}: canceled.canceledMessageCount
 #: src/modules/activities/emails/hooks/useCancelMessageCampaign.ts
 msgid "{0, plural, one {Campaign canceled, {1} pending email stopped} other {Campaign canceled, {2} pending emails stopped}}"
+msgstr ""
+
+#. js-lingui-id: xEqptn
+#. placeholder {0}: item.includedCredits
+#: src/modules/settings/admin-panel/utils/formatSubscriptionItemValue.ts
+msgid "{0, plural, one {credit/period} other {credits/period}}"
+msgstr ""
+
+#. js-lingui-id: AkeiJW
+#. placeholder {0}: item.quantity
+#: src/modules/settings/admin-panel/utils/formatSubscriptionItemValue.ts
+msgid "{0, plural, one {seat} other {seats}}"
 msgstr ""
 
 #. js-lingui-id: WTc9VY
@@ -257,7 +269,7 @@ msgstr ""
 #. js-lingui-id: crgYwP
 #. placeholder {0}: formatNumber(audiencePreview.totalMembers)
 #. placeholder {1}: excludedReasons.join(', ')
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 msgid "{0} in the list, skipping {1}"
 msgstr ""
 
@@ -396,6 +408,11 @@ msgstr ""
 #. js-lingui-id: ZZZxmp
 #: src/pages/auth/Authorize.tsx
 msgid "{appName} would like to:"
+msgstr ""
+
+#. js-lingui-id: wXviUj
+#: src/modules/settings/admin-panel/health-status/components/SettingsAdminJobStateBadge.tsx
+msgid "{attemptsMade, plural, one {{attemptsMade} attempt} other {{attemptsMade} attempts}}"
 msgstr ""
 
 #. js-lingui-id: y9covz
@@ -552,6 +569,11 @@ msgstr ""
 msgid "{messagesLength} emails"
 msgstr ""
 
+#. js-lingui-id: Pfatg8
+#: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingAudioPlayer.tsx
+msgid "{minutes, plural, one {# minute} other {# minutes}}"
+msgstr ""
+
 #. js-lingui-id: Koe99p
 #: src/modules/settings/data-model/object-details/components/SettingsObjectFieldItemTableRow.tsx
 #: src/modules/settings/data-model/object-details/components/SettingsObjectRelationItemTableRow.tsx
@@ -626,6 +648,11 @@ msgstr ""
 msgid "{scopeCount} scopes"
 msgstr ""
 
+#. js-lingui-id: iL/HBr
+#: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingAudioPlayer.tsx
+msgid "{seconds, plural, one {# second} other {# seconds}}"
+msgstr ""
+
 #. js-lingui-id: kvVMdH
 #: src/modules/settings/admin-panel/health-status/components/SettingsAdminQueueJobsTable.tsx
 msgid "{selectedCount, plural, one {Delete {selectedCount} Job} other {Delete {selectedCount} Jobs}}"
@@ -644,6 +671,11 @@ msgstr ""
 #. js-lingui-id: hvL8np
 #: src/modules/settings/admin-panel/health-status/components/SettingsAdminJsonDataIndicatorHealthStatus.tsx
 msgid "{serviceLabel} service is unreachable"
+msgstr ""
+
+#. js-lingui-id: CQxE7h
+#: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingAudioPlayer.tsx
+msgid "{spokenMinutes} {spokenSeconds}"
 msgstr ""
 
 #. js-lingui-id: 8vJ+2V
@@ -1208,6 +1240,12 @@ msgstr ""
 msgid "Add \"{trimmedName}\" to options"
 msgstr ""
 
+#. js-lingui-id: AOKHWb
+#. placeholder {0}: objectMetadataItem.labelSingular
+#: src/pages/object-core/WorkflowCoreIndexPage.tsx
+msgid "Add a {0}"
+msgstr ""
+
 #. js-lingui-id: 9CHcSG
 #: src/modules/object-record/record-index/components/RecordIndexEmptyState.tsx
 #: src/modules/object-record/record-index/components/RecordIndexEmptyState.tsx
@@ -1397,6 +1435,11 @@ msgstr ""
 #. js-lingui-id: WT0Ie4
 #: src/modules/settings/workspace/components/SettingsWorkspaceEmailGroupSection.tsx
 msgid "Add email channel"
+msgstr ""
+
+#. js-lingui-id: Va3xJe
+#: src/modules/settings/data-model/object-details/components/tabs/SettingsObjectSearchSection.tsx
+msgid "Add field"
 msgstr ""
 
 #. js-lingui-id: DpV70M
@@ -1699,6 +1742,12 @@ msgstr ""
 msgid "Add your credit card below. Once added, your subscription will start automatically."
 msgstr ""
 
+#. js-lingui-id: K2c8dN
+#. placeholder {0}: objectMetadataItem.labelSingular
+#: src/pages/object-core/WorkflowCoreIndexPage.tsx
+msgid "Add your first {0}"
+msgstr ""
+
 #. js-lingui-id: m2qDV8
 #: src/modules/object-record/record-table/empty-state/utils/getEmptyStateTitle.ts
 msgid "Add your first {objectLabel}"
@@ -1823,9 +1872,34 @@ msgstr ""
 msgid "Afrikaans"
 msgstr ""
 
+#. js-lingui-id: WlItll
+#: src/modules/settings/admin-panel/constants/CreditGrantExpiryOptions.ts
+msgid "After 180 days"
+msgstr ""
+
+#. js-lingui-id: I6lVwB
+#: src/modules/settings/admin-panel/constants/CreditGrantExpiryOptions.ts
+msgid "After 30 days"
+msgstr ""
+
+#. js-lingui-id: yPZL9v
+#: src/modules/settings/admin-panel/constants/CreditGrantExpiryOptions.ts
+msgid "After 60 days"
+msgstr ""
+
+#. js-lingui-id: E5fxqI
+#: src/modules/settings/admin-panel/constants/CreditGrantExpiryOptions.ts
+msgid "After 90 days"
+msgstr ""
+
 #. js-lingui-id: 5wZlI9
 #: src/modules/workflow/workflow-steps/workflow-actions/delay-actions/components/WorkflowEditActionDelay.tsx
 msgid "After a set amount of time"
+msgstr ""
+
+#. js-lingui-id: 5uLUiv
+#: src/modules/settings/admin-panel/constants/CreditGrantExpiryOptions.ts
+msgid "After a year"
 msgstr ""
 
 #. js-lingui-id: fcYF58
@@ -2795,8 +2869,12 @@ msgstr ""
 msgid "Ascending"
 msgstr ""
 
+#. js-lingui-id: LfkDyR
+#: src/modules/ai/components/AiChatErrorRenderer.tsx
+msgid "Ask a workspace admin to raise the limit."
+msgstr ""
+
 #. js-lingui-id: xWEvuo
-#: src/modules/ai/components/AiChatPageHeader.tsx
 #: src/modules/command-menu-item/engine-command/constants/EngineComponentKeyHeadlessComponentMap.tsx
 #: src/modules/settings/roles/role-permissions/permission-flags/hooks/useActionRolePermissionFlagConfig.ts
 #: src/modules/side-panel/components/SidePanelAskAiInfo.tsx
@@ -3005,6 +3083,11 @@ msgstr ""
 #. js-lingui-id: cNBqH+
 #: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
 msgid "Auth failed at"
+msgstr ""
+
+#. js-lingui-id: sgXsd0
+#: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
+msgid "Auth failure reason"
 msgstr ""
 
 #. js-lingui-id: P8fBlG
@@ -3670,6 +3753,21 @@ msgstr ""
 msgid "Calls"
 msgstr ""
 
+#. js-lingui-id: YKJ+pg
+#: src/modules/activities/emails/hooks/useSendMessageCampaign.ts
+msgid "Campaign moved to {sendTime}"
+msgstr ""
+
+#. js-lingui-id: ANWhqH
+#: src/modules/activities/emails/hooks/useSendMessageCampaign.ts
+msgid "Campaign scheduled for {sendTime}"
+msgstr ""
+
+#. js-lingui-id: gL6+M4
+#: src/modules/activities/emails/hooks/useCancelMessageCampaign.ts
+msgid "Campaign unscheduled and back in your drafts"
+msgstr ""
+
 #. js-lingui-id: msssZq
 #: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectAboutForm.tsx
 msgid "Can't change API names for standard objects"
@@ -3932,16 +4030,6 @@ msgstr ""
 msgid "Change to Yearly?"
 msgstr ""
 
-#. js-lingui-id: LhVon3
-#: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
-msgid "Change visibility?"
-msgstr ""
-
-#. js-lingui-id: rnTfap
-#: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
-msgid "Changing visibility requires reconnecting this OAuth connection. You will be redirected to authorize it again."
-msgstr ""
-
 #. js-lingui-id: lfFsZ4
 #: src/modules/settings/workspace/components/SettingsWorkspaceEmailGroupSection.tsx
 msgid "Channels"
@@ -3954,6 +4042,7 @@ msgid "Chart"
 msgstr ""
 
 #. js-lingui-id: rlwve5
+#: src/modules/ai/components/AiChatPageThreadHeader.tsx
 #: src/modules/ai/components/AiChatThreadItemMenu.tsx
 msgid "Chat actions"
 msgstr ""
@@ -3964,6 +4053,7 @@ msgid "Chat conversation"
 msgstr ""
 
 #. js-lingui-id: tDlhkF
+#: src/modules/ai/components/AiChatPageThreadHeader.tsx
 #: src/modules/ai/components/NavigationDrawerAiChatThreadItem.tsx
 msgid "Chat name"
 msgstr ""
@@ -4365,11 +4455,6 @@ msgstr ""
 #. js-lingui-id: mkMLq4
 #: src/modules/navigation/hooks/useNavigationDrawerTogglePresentation.ts
 msgid "Collapse sidebar"
-msgstr ""
-
-#. js-lingui-id: OQTRMK
-#: src/modules/ai/components/AiChatCollapseButton.tsx
-msgid "Collapse to side panel"
 msgstr ""
 
 #. js-lingui-id: jZlrte
@@ -5055,6 +5140,11 @@ msgstr ""
 msgid "Copy"
 msgstr ""
 
+#. js-lingui-id: 6gAr5+
+#: src/modules/page-layout/widgets/call-recording-transcript/components/WidgetActionCallRecordingTranscript.tsx
+msgid "Copy audio download link"
+msgstr ""
+
 #. js-lingui-id: NmPNJJ
 #: src/modules/ai/components/CodeExecutionDisplay.tsx
 #: src/modules/ai/components/MarkdownCodeBlock.tsx
@@ -5361,8 +5451,13 @@ msgstr ""
 msgid "Count unique values"
 msgstr ""
 
+#. js-lingui-id: GV0ZB5
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
+msgid "Counted again when the campaign sends, so this can change."
+msgstr ""
+
 #. js-lingui-id: tKTq/b
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 msgid "Counting recipients..."
 msgstr ""
 
@@ -5384,6 +5479,12 @@ msgstr ""
 #: src/modules/views/view-picker/components/ViewPickerCreateButton.tsx
 #: src/modules/views/view-picker/components/ViewPickerEditButton.tsx
 msgid "Create"
+msgstr ""
+
+#. js-lingui-id: QMLXwt
+#. placeholder {0}: objectMetadataItem.labelSingular
+#: src/pages/object-core/WorkflowCoreIndexPage.tsx
+msgid "Create a {0} to automate your work."
 msgstr ""
 
 #. js-lingui-id: fQFALn
@@ -5695,9 +5796,9 @@ msgstr ""
 msgid "Credits"
 msgstr ""
 
-#. js-lingui-id: AaNZqp
+#. js-lingui-id: x4qjZw
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceCreditGrantModal.tsx
-msgid "Credits are added on top of the plan allowance and expire at the end of the current billing period. Unused granted credits carry over in full."
+msgid "Credits are added on top of the plan allowance and are spent only once it runs out. They carry over in full from one billing period to the next, and stay available until they are used up or, where an expiry is set, until the end of the billing period that expiry falls in."
 msgstr ""
 
 #. js-lingui-id: 0o2LpE
@@ -5715,9 +5816,9 @@ msgstr ""
 msgid "credits available during the trial period"
 msgstr ""
 
-#. js-lingui-id: MnLFOj
+#. js-lingui-id: nbyiz/
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceCreditGrantsTable.tsx
-msgid "Credits handed out on top of the plan allowance"
+msgid "Credits handed out on top of the plan allowance. They stay spendable until used up."
 msgstr ""
 
 #. js-lingui-id: iSuLEw
@@ -5738,11 +5839,6 @@ msgstr ""
 #. js-lingui-id: yLljbQ
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
 msgid "Credits used"
-msgstr ""
-
-#. js-lingui-id: 5oMPMN
-#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
-msgid "credits/period"
 msgstr ""
 
 #. js-lingui-id: e73uuf
@@ -6683,6 +6779,16 @@ msgstr ""
 msgid "Delete widget"
 msgstr ""
 
+#. js-lingui-id: D+Bgvi
+#: src/modules/object-core/commands/hooks/useCoreObjectsCommands.ts
+msgid "Delete Workflow"
+msgstr ""
+
+#. js-lingui-id: Z299hR
+#: src/modules/object-core/commands/hooks/useCoreObjectsCommands.ts
+msgid "Delete Workflows"
+msgstr ""
+
 #. js-lingui-id: kYu0eF
 #: src/modules/settings/profile/components/DeleteWorkspace.tsx
 #: src/modules/settings/profile/components/DeleteWorkspace.tsx
@@ -6723,6 +6829,11 @@ msgstr ""
 #. js-lingui-id: wIAG+H
 #: src/modules/settings/two-factor-authentication/components/DeleteTwoFactorAuthenticationMethod.tsx
 msgid "Deleting this method will remove it permanently from your account."
+msgstr ""
+
+#. js-lingui-id: si+vZD
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
+msgid "Delivery"
 msgstr ""
 
 #. js-lingui-id: Ssdrw4
@@ -8535,6 +8646,7 @@ msgid "Expired"
 msgstr ""
 
 #. js-lingui-id: KnN1Tu
+#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceCreditGrantModal.tsx
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceCreditGrantsTable.tsx
 #: src/modules/settings/roles/role-assignment/components/SettingsRoleAssignmentTable.tsx
 msgid "Expires"
@@ -8681,6 +8793,12 @@ msgstr ""
 msgid "Failed to create unsubscribe topic."
 msgstr ""
 
+#. js-lingui-id: atCmiF
+#: src/modules/object-core/workflows/hooks/useCreateCoreWorkflow.ts
+#: src/modules/object-core/workflows/hooks/useCreateCoreWorkflow.ts
+msgid "Failed to create workflow"
+msgstr ""
+
 #. js-lingui-id: AXveCw
 #: src/pages/settings/communications/SettingsWorkspaceCommunicationGroupChannelDetail.tsx
 msgid "Failed to delete email channel."
@@ -8704,6 +8822,11 @@ msgstr ""
 #. js-lingui-id: HUBJsk
 #: src/pages/settings/communications/SettingsWorkspaceUnsubscribeTopicDetail.tsx
 msgid "Failed to delete unsubscribe topic."
+msgstr ""
+
+#. js-lingui-id: UUBrJf
+#: src/modules/object-core/workflows/hooks/useDeleteSelectedCoreWorkflows.ts
+msgid "Failed to delete workflows"
 msgstr ""
 
 #. js-lingui-id: NUmmdc
@@ -9088,6 +9211,11 @@ msgstr ""
 msgid "Field"
 msgstr ""
 
+#. js-lingui-id: 0Ractl
+#: src/modules/settings/data-model/object-details/components/tabs/SettingsObjectSearchSection.tsx
+msgid "Field added to search"
+msgstr ""
+
 #. js-lingui-id: LX8Pu1
 #: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
 msgid "Field deleted"
@@ -9106,6 +9234,11 @@ msgstr ""
 #. js-lingui-id: P8JCfj
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
 msgid "field permission"
+msgstr ""
+
+#. js-lingui-id: YZK9mj
+#: src/modules/settings/data-model/object-details/components/tabs/SettingsObjectSearchSection.tsx
+msgid "Field removed from search"
 msgstr ""
 
 #. js-lingui-id: lcNTiF
@@ -9323,6 +9456,11 @@ msgstr ""
 msgid "Finding {objectLabel}"
 msgstr ""
 
+#. js-lingui-id: DWUicC
+#: src/modules/ai/constants/action-tool-status-labels.constant.ts
+msgid "Finding connected accounts"
+msgstr ""
+
 #. js-lingui-id: JmZ/+d
 #: src/modules/settings/roles/role-permissions/object-level-permissions/object-form/components/SettingsRolePermissionsObjectLevelObjectForm.tsx
 msgid "Finish"
@@ -9489,6 +9627,11 @@ msgstr ""
 msgid "Found {objectLabel}"
 msgstr ""
 
+#. js-lingui-id: 5Vg0Q7
+#: src/modules/ai/constants/action-tool-status-labels.constant.ts
+msgid "Found connected accounts"
+msgstr ""
+
 #. js-lingui-id: 1hxId5
 #: src/modules/workflow/workflow-trigger/utils/cron-to-human/descriptors/getDayOfWeekDescription.ts
 msgid "fourth"
@@ -9524,7 +9667,7 @@ msgstr ""
 #: src/modules/activities/emails/components/CampaignDetailsFields.tsx
 #: src/modules/activities/emails/components/CampaignSentEnvelope.tsx
 #: src/modules/activities/emails/components/EmailComposerFields.tsx
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/components/WorkflowEditActionEmailBase.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/components/WorkflowRunStepLogsEmailDetail.tsx
 msgid "From"
@@ -9824,6 +9967,11 @@ msgstr ""
 #. js-lingui-id: FdPN4f
 #: src/modules/settings/admin-panel/components/SettingsAdminServerAdminAccess.tsx
 msgid "Grant full access"
+msgstr ""
+
+#. js-lingui-id: E0rSFg
+#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceCreditGrantsTable.tsx
+msgid "Granted"
 msgstr ""
 
 #. js-lingui-id: Tbxf45
@@ -11220,7 +11368,6 @@ msgstr ""
 #. js-lingui-id: UpNpMK
 #: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
 #: src/pages/settings/applications/tabs/SettingsApplicationConnectionsSection.tsx
-#: src/pages/settings/applications/tabs/SettingsApplicationConnectionsSection.tsx
 msgid "Just for me"
 msgstr ""
 
@@ -11809,7 +11956,7 @@ msgstr ""
 
 #. js-lingui-id: 2BBAbc
 #: src/modules/page-layout/widgets/record-table/types/RecordTableWidgetLayoutViewType.ts
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 #: src/modules/views/types/ViewType.ts
 msgid "List"
 msgstr ""
@@ -12090,11 +12237,6 @@ msgstr ""
 #. js-lingui-id: MOLprz
 #: src/modules/settings/roles/role-permissions/permission-flags/hooks/useActionRolePermissionFlagConfig.ts
 msgid "Make HTTP requests to external APIs"
-msgstr ""
-
-#. js-lingui-id: icpEdc
-#: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
-msgid "Make private"
 msgstr ""
 
 #. js-lingui-id: wckWOP
@@ -12924,6 +13066,8 @@ msgid "Network error"
 msgstr ""
 
 #. js-lingui-id: qqeAJM
+#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceCreditGrantsTable.tsx
+#: src/modules/settings/admin-panel/constants/CreditGrantExpiryOptions.ts
 #: src/modules/settings/developers/utils/formatExpiration.ts
 msgid "Never"
 msgstr ""
@@ -12954,6 +13098,7 @@ msgstr ""
 #: src/modules/object-record/record-form/components/RecordCreationFormProvider.tsx
 #: src/modules/object-record/record-form/components/RecordCreationFormProvider.tsx
 #: src/modules/side-panel/hooks/useOpenRecordInSidePanel.ts
+#: src/pages/object-core/WorkflowCoreIndexPage.tsx
 msgid "New {0}"
 msgstr ""
 
@@ -12998,6 +13143,9 @@ msgid "New calendar event"
 msgstr ""
 
 #. js-lingui-id: hIQkLb
+#: src/modules/ai/components/AiChatPageHeader.tsx
+#: src/modules/ai/components/AiChatPageThreadHeader.tsx
+#: src/modules/ai/components/AiChatPageThreadHeader.tsx
 #: src/modules/ai/components/NavigationDrawerAiChatThreadItem.tsx
 msgid "New chat"
 msgstr ""
@@ -13008,7 +13156,6 @@ msgid "New Company"
 msgstr ""
 
 #. js-lingui-id: +HY5kX
-#: src/modules/ai/components/AiChatPageHeader.tsx
 #: src/modules/side-panel/components/SidePanelTopBarRightCornerIcon.tsx
 msgid "New conversation"
 msgstr ""
@@ -13217,6 +13364,18 @@ msgstr ""
 #: src/pages/settings/applications/tabs/SettingsApplicationFrontComponentSettingsTab.tsx
 #: src/pages/settings/applications/tabs/SettingsApplicationFrontComponentSettingsTab.tsx
 msgid "No"
+msgstr ""
+
+#. js-lingui-id: AZa0Mm
+#. placeholder {0}: objectMetadataItem.labelPlural
+#: src/pages/object-core/WorkflowCoreIndexPage.tsx
+msgid "No {0} found"
+msgstr ""
+
+#. js-lingui-id: uZ8YLp
+#. placeholder {0}: objectMetadataItem.labelPlural
+#: src/pages/object-core/WorkflowCoreIndexPage.tsx
+msgid "No {0} match your filters. Try removing some of them."
 msgstr ""
 
 #. js-lingui-id: 7YGRoE
@@ -13627,7 +13786,7 @@ msgstr ""
 
 #. js-lingui-id: nivaRq
 #: src/modules/activities/emails/components/CampaignSentEnvelope.tsx
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 msgid "No list"
 msgstr ""
 
@@ -13852,13 +14011,13 @@ msgstr ""
 
 #. js-lingui-id: Ylz+jb
 #: src/modules/activities/emails/components/CampaignSentEnvelope.tsx
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 msgid "No sender"
 msgstr ""
 
-#. js-lingui-id: 5UEIxk
+#. js-lingui-id: dRi20n
 #: src/modules/activities/emails/components/CampaignDetailsFields.tsx
-msgid "No sending address is available. Connect a verified sending domain in Settings before this campaign can go out."
+msgid "No sending address. Connect a verified domain in Settings."
 msgstr ""
 
 #. js-lingui-id: JkPTT8
@@ -13868,7 +14027,7 @@ msgstr ""
 
 #. js-lingui-id: eeoVfm
 #: src/modules/activities/emails/components/CampaignSentEnvelope.tsx
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 msgid "No subject"
 msgstr ""
 
@@ -13996,6 +14155,11 @@ msgstr ""
 #. js-lingui-id: AQCvCC
 #: src/modules/object-record/record-table/empty-state/utils/getEmptyStateTitle.ts
 msgid "No workflow versions yet"
+msgstr ""
+
+#. js-lingui-id: 0R8Pxd
+#: src/modules/object-core/workflows/hooks/useDeleteSelectedCoreWorkflows.ts
+msgid "No workflows were deleted"
 msgstr ""
 
 #. js-lingui-id: Q4dFjT
@@ -14166,6 +14330,11 @@ msgstr ""
 #: src/modules/side-panel/hooks/useOpenWidgetSettingsInSidePanel.ts
 #: src/modules/side-panel/pages/page-layout/components/SidePanelPageLayoutRecordPageWidgetTypeSelect.tsx
 msgid "Note"
+msgstr ""
+
+#. js-lingui-id: yBYKk1
+#: src/modules/command-menu-item/engine-command/record/single-record/message-campaign/components/CancelMessageCampaignSingleRecordCommand.tsx
+msgid "Nothing has gone out yet. The campaign returns to your drafts and you can edit or schedule it again."
 msgstr ""
 
 #. js-lingui-id: VngD1z
@@ -14472,7 +14641,6 @@ msgid "On which object(s) should this trigger be available"
 msgstr ""
 
 #. js-lingui-id: gukxZ5
-#: src/modules/ai/components/AiChatPageHeader.tsx
 #: src/modules/settings/admin-panel/chats/components/SettingsAdminChatsTableRow.tsx
 msgid "Onboarding"
 msgstr ""
@@ -15063,6 +15231,7 @@ msgid "Path"
 msgstr ""
 
 #. js-lingui-id: IgrLD/
+#: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingAudioPlayer.tsx
 #: src/modules/settings/event-logs/components/SettingsLogs.tsx
 msgid "Pause"
 msgstr ""
@@ -15227,6 +15396,11 @@ msgstr ""
 msgid "Pick a {0} record"
 msgstr ""
 
+#. js-lingui-id: T1yaeQ
+#: src/modules/side-panel/pages/send-campaign/utils/buildCampaignDeliveryHint.ts
+msgid "Pick a send time in the future."
+msgstr ""
+
 #. js-lingui-id: JqqNlC
 #: src/modules/side-panel/utils/getSidePanelSubPageTitle.ts
 msgid "Pick a view"
@@ -15332,7 +15506,13 @@ msgstr ""
 msgid "Plans"
 msgstr ""
 
+#. js-lingui-id: T91vKp
+#: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingAudioPlayer.tsx
+msgid "Play"
+msgstr ""
+
 #. js-lingui-id: XdRQm7
+#: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingAudioPlayer.tsx
 #: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingVideoPlayer.tsx
 msgid "Playback failed"
 msgstr ""
@@ -15909,7 +16089,7 @@ msgid "Recipient"
 msgstr ""
 
 #. js-lingui-id: F+BB7w
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 msgid "Recipient count unavailable"
 msgstr ""
 
@@ -15919,7 +16099,7 @@ msgid "recipient@example.com"
 msgstr ""
 
 #. js-lingui-id: yPrbsy
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/components/WorkflowRunStepLogsEmailDetail.tsx
 msgid "Recipients"
 msgstr ""
@@ -15949,9 +16129,9 @@ msgstr ""
 msgid "Reconnect"
 msgstr ""
 
-#. js-lingui-id: NSOx3j
+#. js-lingui-id: PrI9jr
 #: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
-msgid "Reconnect and change visibility"
+msgid "Reconnect and share"
 msgstr ""
 
 #. js-lingui-id: XsIxsL
@@ -16466,6 +16646,11 @@ msgstr ""
 msgid "Required"
 msgstr ""
 
+#. js-lingui-id: r38Vo4
+#: src/modules/side-panel/pages/send-campaign/utils/buildCampaignSendButtonTitle.ts
+msgid "Reschedule campaign"
+msgstr ""
+
 #. js-lingui-id: Vae65A
 #: src/modules/ai/components/suggested-prompts/contextual-suggested-prompts.ts
 msgid "Research this company"
@@ -16627,6 +16812,7 @@ msgstr ""
 
 #. js-lingui-id: 6gRgw8
 #: src/modules/ai/components/AiChatErrorMessage.tsx
+#: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingAudioPlayer.tsx
 #: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingVideoPlayer.tsx
 #: src/modules/settings/admin-panel/health-status/components/SettingsAdminQueueJobRowDropdownMenu.tsx
 #: src/modules/settings/admin-panel/health-status/components/SettingsAdminRetryJobsConfirmationModal.tsx
@@ -16941,10 +17127,20 @@ msgstr ""
 msgid "Schedule a maintenance window and notify all users"
 msgstr ""
 
+#. js-lingui-id: MGaW9O
+#: src/modules/side-panel/pages/send-campaign/utils/buildCampaignSendButtonTitle.ts
+msgid "Schedule campaign"
+msgstr ""
+
 #. js-lingui-id: 4ba0NE
 #: src/modules/activities/calendar/components/CalendarEventCallRecorderAvatar.tsx
 #: src/modules/settings/billing/hooks/useBillingPlanActions.ts
 msgid "Scheduled"
+msgstr ""
+
+#. js-lingui-id: JizhXE
+#: src/modules/activities/emails/components/CampaignSentEnvelope.tsx
+msgid "Scheduled at"
 msgstr ""
 
 #. js-lingui-id: 7oCJuI
@@ -17082,11 +17278,6 @@ msgstr ""
 msgid "Search a view..."
 msgstr ""
 
-#. js-lingui-id: N7Z3jc
-#: src/modules/settings/data-model/object-details/components/tabs/SettingsObjectSearchSection.tsx
-msgid "Search across indexed fields..."
-msgstr ""
-
 #. js-lingui-id: +7s4fw
 #: src/modules/settings/roles/role-assignment/components/SettingsRoleAssignmentEntityPickerDropdown.tsx
 msgid "Search agents"
@@ -17205,6 +17396,11 @@ msgstr ""
 msgid "Search fields"
 msgstr ""
 
+#. js-lingui-id: IQAn53
+#: src/modules/settings/data-model/object-details/components/tabs/SettingsObjectSearchSection.tsx
+msgid "Search fields..."
+msgstr ""
+
 #. js-lingui-id: rXrG+N
 #: src/modules/settings/accounts/components/message-folders/SettingsAccountsMessageFoldersCard.tsx
 msgid "Search folders..."
@@ -17320,7 +17516,6 @@ msgid "seat / month - billed yearly"
 msgstr ""
 
 #. js-lingui-id: MpFIca
-#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
 #: src/modules/settings/billing/components/SettingsBillingSubscriptionInfo.tsx
 msgid "seats"
 msgstr ""
@@ -17459,6 +17654,11 @@ msgstr ""
 #. js-lingui-id: Hhnssf
 #: src/pages/settings/applications/components/SettingsApplicationTableRow.tsx
 msgid "Seeded"
+msgstr ""
+
+#. js-lingui-id: AhNP40
+#: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingAudioPlayer.tsx
+msgid "Seek"
 msgstr ""
 
 #. js-lingui-id: 5iyrla
@@ -17727,8 +17927,13 @@ msgstr ""
 msgid "Send an invite email to your team"
 msgstr ""
 
+#. js-lingui-id: S147dq
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
+msgid "Send at"
+msgstr ""
+
 #. js-lingui-id: WRLt0i
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/utils/buildCampaignSendButtonTitle.ts
 msgid "Send campaign"
 msgstr ""
 
@@ -17757,6 +17962,16 @@ msgstr ""
 #: src/modules/activities/calendar/components/CalendarEventComposerFields.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/components/WorkflowEditActionCreateCalendarEvent.tsx
 msgid "Send invitations"
+msgstr ""
+
+#. js-lingui-id: RmmhAh
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
+msgid "Send later"
+msgstr ""
+
+#. js-lingui-id: NpEm3p
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
+msgid "Send now"
 msgstr ""
 
 #. js-lingui-id: doZzL7
@@ -17790,9 +18005,19 @@ msgstr ""
 msgid "Sending request..."
 msgstr ""
 
+#. js-lingui-id: YguCRV
+#: src/modules/side-panel/pages/send-campaign/utils/buildCampaignDeliveryHint.ts
+msgid "Sending starts {formattedSendTime}. You can cancel before then."
+msgstr ""
+
 #. js-lingui-id: 2l+PSH
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/utils/buildCampaignDeliveryHint.ts
 msgid "Sending starts right away and cannot be undone."
+msgstr ""
+
+#. js-lingui-id: w+ywgn
+#: src/modules/side-panel/pages/send-campaign/utils/buildCampaignDeliveryHint.ts
+msgid "Sending starts right away, ahead of the time this campaign is holding."
 msgstr ""
 
 #. js-lingui-id: IoAuJG
@@ -18000,6 +18225,11 @@ msgstr ""
 msgid "Share with workspace"
 msgstr ""
 
+#. js-lingui-id: lX0SIS
+#: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
+msgid "Share with workspace?"
+msgstr ""
+
 #. js-lingui-id: gaJRur
 #: src/pages/settings/applications/tabs/SettingsApplicationRegistrationDistributionTab.tsx
 msgid "Share your app to other workspaces without pushing it on the marketplace"
@@ -18013,6 +18243,11 @@ msgstr ""
 #. js-lingui-id: NyIsOu
 #: src/pages/settings/applications/components/SettingsApplicationRegistrationShareLinkButtons.tsx
 msgid "Sharing link copied to clipboard"
+msgstr ""
+
+#. js-lingui-id: Xzq3Vx
+#: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
+msgid "Sharing this connection with the workspace requires reconnecting it. You will be redirected to authorize it again."
 msgstr ""
 
 #. js-lingui-id: RRXpo1
@@ -18344,6 +18579,7 @@ msgstr ""
 
 #. js-lingui-id: nwtY4N
 #: src/pages/auth/Authorize.tsx
+#: src/pages/object-core/WorkflowCoreIndexPage.tsx
 msgid "Something went wrong"
 msgstr ""
 
@@ -18748,7 +18984,7 @@ msgstr ""
 #: src/modules/activities/emails/components/CampaignSentEnvelope.tsx
 #: src/modules/activities/emails/components/EmailComposerFields.tsx
 #: src/modules/activities/emails/components/EmailComposerFields.tsx
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/components/WorkflowEditActionEmailBase.tsx
 msgid "Subject"
 msgstr ""
@@ -20728,6 +20964,12 @@ msgstr ""
 msgid "Unpin tab"
 msgstr ""
 
+#. js-lingui-id: 1rXqkB
+#: src/modules/command-menu-item/engine-command/record/single-record/message-campaign/components/CancelMessageCampaignSingleRecordCommand.tsx
+#: src/modules/command-menu-item/engine-command/record/single-record/message-campaign/components/CancelMessageCampaignSingleRecordCommand.tsx
+msgid "Unschedule Campaign"
+msgstr ""
+
 #. js-lingui-id: SMaFdc
 #: src/modules/settings/unsubscribers/components/SettingsUnsubscribePreview.tsx
 #: src/pages/settings/communications/SettingsWorkspaceCommunications.tsx
@@ -21818,6 +22060,12 @@ msgstr ""
 msgid "We are currently encountering issues with this app, its behavior may be degraded while we work on a fix."
 msgstr ""
 
+#. js-lingui-id: Pk5zT3
+#. placeholder {0}: objectMetadataItem.labelPlural
+#: src/pages/object-core/WorkflowCoreIndexPage.tsx
+msgid "We could not load your {0}. Please try again later."
+msgstr ""
+
 #. js-lingui-id: icGmU/
 #: src/pages/settings/applications/utils/getClaimErrorContent.ts
 msgid "We could not reach the package registry to verify the package provenance. Please try again in a few minutes."
@@ -21964,11 +22212,6 @@ msgstr ""
 #. js-lingui-id: IAUiSh
 #: src/modules/side-panel/pages/page-layout/utils/getDateGranularityPluralLabel.ts
 msgid "weeks"
-msgstr ""
-
-#. js-lingui-id: WKHqM+
-#: src/modules/settings/data-model/object-details/components/tabs/SettingsObjectSearchSection.tsx
-msgid "Weight"
 msgstr ""
 
 #. js-lingui-id: nTuObL
@@ -22295,7 +22538,6 @@ msgstr ""
 
 #. js-lingui-id: PHF7zj
 #: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
-#: src/pages/settings/applications/tabs/SettingsApplicationConnectionsSection.tsx
 #: src/pages/settings/applications/tabs/SettingsApplicationConnectionsSection.tsx
 msgid "Workspace shared"
 msgstr ""

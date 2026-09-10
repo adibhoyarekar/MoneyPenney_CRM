@@ -2374,6 +2374,11 @@ msgstr "Conectarea nu este permisă pentru {connectFieldName} la {objectMetadata
 msgid "Connected account not found."
 msgstr "Contul conectat nu a fost găsit."
 
+#. js-lingui-id: lAyVpb
+#: src/engine/core-modules/application/connection-provider/connection-provider.exception.ts
+msgid "Connection not found."
+msgstr ""
+
 #. js-lingui-id: xQ2DfP
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-connection-provider-validator.service.ts
 msgid "Connection provider display name is required"
@@ -2660,6 +2665,11 @@ msgstr "Creat de"
 #: src/engine/metadata-modules/flat-field-metadata/utils/from-create-field-input-to-flat-field-metadatas-to-create.util.ts
 msgid "Created field metadata, parent object metadata not found"
 msgstr "Metadatele câmpului creat, metadatele obiectului părinte nu au fost găsite"
+
+#. js-lingui-id: tpPGe6
+#: src/engine/record-share/utils/validate-share-with-arg-or-throw.util.ts
+msgid "Creating a record of a private object requires the shareWith argument"
+msgstr ""
 
 #. js-lingui-id: ezEYQZ
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/build-standard-target-flat-field-metadatas.util.ts
@@ -3365,6 +3375,11 @@ msgstr "Duplică fluxul de lucru"
 msgid "Duplicated option {field}"
 msgstr "Opțiunea duplicată {field}"
 
+#. js-lingui-id: nTBzmZ
+#: src/engine/record-share/utils/resolve-share-with-principal-or-throw.util.ts
+msgid "Each shareWith entry must target exactly one of workspaceMemberId, roleId or everyone"
+msgstr ""
+
 #. js-lingui-id: zhhpvr
 #: src/engine/workspace-manager/twenty-standard-application/constants/standard-command-menu-item.constant.ts
 msgctxt "commandMenuItem.shortLabel"
@@ -3545,6 +3560,11 @@ msgstr "Email-uri"
 #: src/engine/metadata-modules/permissions/permissions.exception.ts
 msgid "Empty field permissions are not allowed."
 msgstr "Permisiunile de câmp goale nu sunt permise."
+
+#. js-lingui-id: xFJpEE
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-searchable-flat-field-metadata.util.ts
+msgid "Enable search on this object before adding searchable fields"
+msgstr ""
 
 #. js-lingui-id: ovnbNI
 #: src/engine/core-modules/admin-panel/services/admin-panel-server-admin.service.ts
@@ -4327,6 +4347,11 @@ msgstr "Filtrarea sau ordonarea prin această relație nu este suportată."
 msgid "Find"
 msgstr "Găsește"
 
+#. js-lingui-id: klz9oi
+#: src/engine/core-modules/tool-provider/constants/action-tool-label.constant.ts
+msgid "Find Connected Accounts"
+msgstr ""
+
 #. js-lingui-id: 4GaFCQ
 #: src/engine/workspace-manager/workspace-migration/interceptors/utils/__tests__/build-metadata-validation-error-payload.util.spec.ts
 msgid "First friendly message"
@@ -4814,6 +4839,11 @@ msgstr "Id"
 msgctxt "fieldMetadata.label"
 msgid "Id"
 msgstr "Id"
+
+#. js-lingui-id: ZbNFXE
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-searchable-flat-field-metadata.util.ts
+msgid "Id field cannot be searched"
+msgstr ""
 
 #. js-lingui-id: 6cVc+b
 #: src/engine/core-modules/sso/sso.exception.ts
@@ -5514,6 +5544,7 @@ msgstr "Format de URL invalid."
 
 #. js-lingui-id: Z3Su9z
 #: src/engine/api/graphql/workspace-query-runner/utils/assert-is-valid-uuid.util.ts
+#: src/engine/record-share/utils/resolve-share-with-principal-or-throw.util.ts
 msgid "Invalid UUID format."
 msgstr "Format de UUID invalid."
 
@@ -5939,6 +5970,11 @@ msgstr "Eticheta nu poate fi goală"
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-field-metadata-validator.service.ts
 msgid "Label identifier field cannot be deactivated"
 msgstr "Câmpul identificator etichetă nu poate fi dezactivat"
+
+#. js-lingui-id: +LPcfA
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-searchable-flat-field-metadata.util.ts
+msgid "Label identifier field cannot be removed from search"
+msgstr ""
 
 #. js-lingui-id: Qx822J
 #: src/engine/metadata-modules/field-metadata/field-metadata.exception.ts
@@ -7522,10 +7558,10 @@ msgstr "Unul sau mai multe URI de redirecționare sunt nevalide."
 msgid "One or more requested scopes are invalid."
 msgstr "Unul sau mai multe scopuri solicitate sunt nevalide."
 
-#. js-lingui-id: EkozT1
+#. js-lingui-id: B73M2h
 #: src/engine/core-modules/emailing-domain/exceptions/emailing-domain.exception.ts
-msgid "Only a campaign that is currently sending can be canceled."
-msgstr "Poate fi anulată doar o campanie care trimite în prezent."
+msgid "Only a scheduled or sending campaign can be canceled."
+msgstr ""
 
 #. js-lingui-id: NYONBC
 #: src/engine/core-modules/impersonation/constants/impersonation-denial-by-reason.constant.ts
@@ -8129,6 +8165,11 @@ msgstr "Poziția înregistrării persoanei"
 msgctxt "fieldMetadata.label"
 msgid "Phones"
 msgstr "Telefoane"
+
+#. js-lingui-id: T1yaeQ
+#: src/engine/core-modules/emailing-domain/exceptions/emailing-domain.exception.ts
+msgid "Pick a send time in the future."
+msgstr ""
 
 #. js-lingui-id: RrxR7k
 #. placeholder {0}: flatField.label
@@ -9097,6 +9138,12 @@ msgctxt "fieldMetadata.label"
 msgid "Scheduled"
 msgstr "Programat"
 
+#. js-lingui-id: jYVtFG
+#: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-campaign-standard-flat-field-metadata.util.ts
+msgctxt "fieldMetadata.label"
+msgid "Scheduled at"
+msgstr ""
+
 #. js-lingui-id: V1y7Hg
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-blocklist-standard-flat-field-metadata.util.ts
 msgctxt "fieldMetadata.label"
@@ -9436,6 +9483,21 @@ msgstr "Setări"
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-record-share-standard-flat-field-metadata.util.ts
 msgctxt "fieldMetadata.description"
 msgid "Shared record"
+msgstr ""
+
+#. js-lingui-id: 4FadYd
+#: src/engine/record-share/utils/validate-share-with-principals-or-throw.util.ts
+msgid "shareWith names a role that does not belong to this workspace"
+msgstr ""
+
+#. js-lingui-id: 4PQnEW
+#: src/engine/record-share/utils/validate-share-with-principals-or-throw.util.ts
+msgid "shareWith names a workspace member that does not belong to this workspace"
+msgstr ""
+
+#. js-lingui-id: qTLqMS
+#: src/engine/record-share/utils/validate-share-with-arg-or-throw.util.ts
+msgid "shareWith names the same principal more than once"
 msgstr ""
 
 #. js-lingui-id: e1k+No
@@ -10132,11 +10194,6 @@ msgstr "Intrarea cheie-valoare a aplicației nu a putut fi salvată. Vă rugăm 
 #: src/engine/core-modules/logic-function/logic-function-trigger/triggers/route/exceptions/route-trigger.exception.ts
 msgid "The application's production dependencies are too large to install. Move packages that are not imported by its logic functions (UI libraries, dev tooling) out of \"dependencies\"."
 msgstr "Dependințele de producție ale aplicației sunt prea mari pentru a fi instalate. Mutați pachetele care nu sunt importate de funcțiile ei logice (biblioteci UI, unelte de dezvoltare) în afara \"dependencies\"."
-
-#. js-lingui-id: IIdxjy
-#: src/modules/connected-account-sync-webhooks/calendar-event-webhook-sync/calendar-event-webhook-sync.exception.ts
-msgid "The calendar is already syncing."
-msgstr "Calendarul se sincronizează deja."
 
 #. js-lingui-id: KHtcGn
 #: src/modules/calendar/calendar-event-creation-manager/exceptions/calendar-event-creation.exception.ts
@@ -10837,6 +10894,11 @@ msgstr "Această permisiune pe câmp este deja setată pentru rol"
 msgid "This field references an object that could not be found"
 msgstr "Acest câmp face referire la un obiect care nu a putut fi găsit"
 
+#. js-lingui-id: CIqMf4
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-searchable-flat-field-metadata.util.ts
+msgid "This field type cannot be searched"
+msgstr ""
+
 #. js-lingui-id: 5F02zD
 #: src/engine/core-modules/file/file-upload/services/file-upload-completion.service.ts
 msgid "This file format is not supported."
@@ -10919,6 +10981,11 @@ msgstr "Acest obiect are deja o vizualizare implicită"
 #: src/engine/metadata-modules/object-metadata/object-metadata.exception.ts
 msgid "This object cannot be modified."
 msgstr "Acest obiect nu poate fi modificat."
+
+#. js-lingui-id: I8RhBL
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-searchable-flat-field-metadata.util.ts
+msgid "This object has no search vector"
+msgstr ""
 
 #. js-lingui-id: X2Xp8v
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-object-permission-validator.service.ts
@@ -12338,6 +12405,12 @@ msgstr ""
 msgctxt "fieldMetadata.description"
 msgid "When the campaign finished sending"
 msgstr "Când s-a încheiat trimiterea campaniei"
+
+#. js-lingui-id: +tMBha
+#: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-campaign-standard-flat-field-metadata.util.ts
+msgctxt "fieldMetadata.description"
+msgid "When the campaign is due to start sending"
+msgstr ""
 
 #. js-lingui-id: Kx3ltI
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts

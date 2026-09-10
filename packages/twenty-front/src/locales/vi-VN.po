@@ -186,7 +186,7 @@ msgstr "{0, plural, other {{2} công việc không thể thử lại}}"
 #. placeholder {0}: audiencePreview.sendable
 #. placeholder {1}: formatNumber(audiencePreview.sendable)
 #. placeholder {2}: formatNumber(audiencePreview.sendable)
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 msgid "{0, plural, one {{1} recipient} other {{2} recipients}}"
 msgstr ""
 
@@ -221,6 +221,18 @@ msgstr "{0, plural, one {# không gian làm việc bị lỗi hoặc tụt lại
 #. placeholder {2}: canceled.canceledMessageCount
 #: src/modules/activities/emails/hooks/useCancelMessageCampaign.ts
 msgid "{0, plural, one {Campaign canceled, {1} pending email stopped} other {Campaign canceled, {2} pending emails stopped}}"
+msgstr ""
+
+#. js-lingui-id: xEqptn
+#. placeholder {0}: item.includedCredits
+#: src/modules/settings/admin-panel/utils/formatSubscriptionItemValue.ts
+msgid "{0, plural, one {credit/period} other {credits/period}}"
+msgstr ""
+
+#. js-lingui-id: AkeiJW
+#. placeholder {0}: item.quantity
+#: src/modules/settings/admin-panel/utils/formatSubscriptionItemValue.ts
+msgid "{0, plural, one {seat} other {seats}}"
 msgstr ""
 
 #. js-lingui-id: WTc9VY
@@ -262,7 +274,7 @@ msgstr "{0} không có quan hệ với {loadBalancePoolObjectLabel}. Hãy chọn
 #. js-lingui-id: crgYwP
 #. placeholder {0}: formatNumber(audiencePreview.totalMembers)
 #. placeholder {1}: excludedReasons.join(', ')
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 msgid "{0} in the list, skipping {1}"
 msgstr ""
 
@@ -402,6 +414,11 @@ msgstr "{appDisplayName} muốn:"
 #: src/pages/auth/Authorize.tsx
 msgid "{appName} would like to:"
 msgstr "{appName} muốn:"
+
+#. js-lingui-id: wXviUj
+#: src/modules/settings/admin-panel/health-status/components/SettingsAdminJobStateBadge.tsx
+msgid "{attemptsMade, plural, one {{attemptsMade} attempt} other {{attemptsMade} attempts}}"
+msgstr ""
 
 #. js-lingui-id: y9covz
 #: src/modules/settings/admin-panel/utils/getWorkspacesUpgradeHealthText.ts
@@ -557,6 +574,11 @@ msgstr "{memberCount, plural, one {{memberCount} thành viên} other {{memberCou
 msgid "{messagesLength} emails"
 msgstr "{messagesLength} email"
 
+#. js-lingui-id: Pfatg8
+#: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingAudioPlayer.tsx
+msgid "{minutes, plural, one {# minute} other {# minutes}}"
+msgstr ""
+
 #. js-lingui-id: Koe99p
 #: src/modules/settings/data-model/object-details/components/SettingsObjectFieldItemTableRow.tsx
 #: src/modules/settings/data-model/object-details/components/SettingsObjectRelationItemTableRow.tsx
@@ -631,6 +653,11 @@ msgstr "{roleTargetName} sẽ được gán vào vai trò \"{newRoleName}\"."
 msgid "{scopeCount} scopes"
 msgstr "{scopeCount} phạm vi"
 
+#. js-lingui-id: iL/HBr
+#: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingAudioPlayer.tsx
+msgid "{seconds, plural, one {# second} other {# seconds}}"
+msgstr ""
+
 #. js-lingui-id: kvVMdH
 #: src/modules/settings/admin-panel/health-status/components/SettingsAdminQueueJobsTable.tsx
 msgid "{selectedCount, plural, one {Delete {selectedCount} Job} other {Delete {selectedCount} Jobs}}"
@@ -650,6 +677,11 @@ msgstr "{selectedCount} loại nguồn"
 #: src/modules/settings/admin-panel/health-status/components/SettingsAdminJsonDataIndicatorHealthStatus.tsx
 msgid "{serviceLabel} service is unreachable"
 msgstr "Không thể truy cập dịch vụ {serviceLabel}"
+
+#. js-lingui-id: CQxE7h
+#: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingAudioPlayer.tsx
+msgid "{spokenMinutes} {spokenSeconds}"
+msgstr ""
 
 #. js-lingui-id: 8vJ+2V
 #: src/modules/ai/components/ThinkingStepsDisplay.tsx
@@ -1213,6 +1245,12 @@ msgstr "Thêm"
 msgid "Add \"{trimmedName}\" to options"
 msgstr "Thêm \"{trimmedName}\" vào các tùy chọn"
 
+#. js-lingui-id: AOKHWb
+#. placeholder {0}: objectMetadataItem.labelSingular
+#: src/pages/object-core/WorkflowCoreIndexPage.tsx
+msgid "Add a {0}"
+msgstr ""
+
 #. js-lingui-id: 9CHcSG
 #: src/modules/object-record/record-index/components/RecordIndexEmptyState.tsx
 #: src/modules/object-record/record-index/components/RecordIndexEmptyState.tsx
@@ -1403,6 +1441,11 @@ msgstr "Thêm thông tin chi tiết cho khách"
 #: src/modules/settings/workspace/components/SettingsWorkspaceEmailGroupSection.tsx
 msgid "Add email channel"
 msgstr "Thêm kênh email"
+
+#. js-lingui-id: Va3xJe
+#: src/modules/settings/data-model/object-details/components/tabs/SettingsObjectSearchSection.tsx
+msgid "Add field"
+msgstr ""
 
 #. js-lingui-id: DpV70M
 #: src/modules/settings/data-model/object-details/components/tabs/ObjectFields.tsx
@@ -1704,6 +1747,12 @@ msgstr "Thêm thẻ tín dụng của bạn"
 msgid "Add your credit card below. Once added, your subscription will start automatically."
 msgstr "Thêm thẻ tín dụng của bạn bên dưới. Sau khi thêm, gói đăng ký của bạn sẽ tự động bắt đầu."
 
+#. js-lingui-id: K2c8dN
+#. placeholder {0}: objectMetadataItem.labelSingular
+#: src/pages/object-core/WorkflowCoreIndexPage.tsx
+msgid "Add your first {0}"
+msgstr ""
+
 #. js-lingui-id: m2qDV8
 #: src/modules/object-record/record-table/empty-state/utils/getEmptyStateTitle.ts
 msgid "Add your first {objectLabel}"
@@ -1828,10 +1877,35 @@ msgstr "Tùy chọn nâng cao"
 msgid "Afrikaans"
 msgstr "Tiếng Afrikaans"
 
+#. js-lingui-id: WlItll
+#: src/modules/settings/admin-panel/constants/CreditGrantExpiryOptions.ts
+msgid "After 180 days"
+msgstr ""
+
+#. js-lingui-id: I6lVwB
+#: src/modules/settings/admin-panel/constants/CreditGrantExpiryOptions.ts
+msgid "After 30 days"
+msgstr ""
+
+#. js-lingui-id: yPZL9v
+#: src/modules/settings/admin-panel/constants/CreditGrantExpiryOptions.ts
+msgid "After 60 days"
+msgstr ""
+
+#. js-lingui-id: E5fxqI
+#: src/modules/settings/admin-panel/constants/CreditGrantExpiryOptions.ts
+msgid "After 90 days"
+msgstr ""
+
 #. js-lingui-id: 5wZlI9
 #: src/modules/workflow/workflow-steps/workflow-actions/delay-actions/components/WorkflowEditActionDelay.tsx
 msgid "After a set amount of time"
 msgstr "Sau một khoảng thời gian đã đặt"
+
+#. js-lingui-id: 5uLUiv
+#: src/modules/settings/admin-panel/constants/CreditGrantExpiryOptions.ts
+msgid "After a year"
+msgstr ""
 
 #. js-lingui-id: fcYF58
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
@@ -2800,8 +2874,12 @@ msgstr "tăng dần"
 msgid "Ascending"
 msgstr "Tăng dần"
 
+#. js-lingui-id: LfkDyR
+#: src/modules/ai/components/AiChatErrorRenderer.tsx
+msgid "Ask a workspace admin to raise the limit."
+msgstr ""
+
 #. js-lingui-id: xWEvuo
-#: src/modules/ai/components/AiChatPageHeader.tsx
 #: src/modules/command-menu-item/engine-command/constants/EngineComponentKeyHeadlessComponentMap.tsx
 #: src/modules/settings/roles/role-permissions/permission-flags/hooks/useActionRolePermissionFlagConfig.ts
 #: src/modules/side-panel/components/SidePanelAskAiInfo.tsx
@@ -3011,6 +3089,11 @@ msgstr "Xác thực"
 #: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
 msgid "Auth failed at"
 msgstr "Xác thực thất bại lúc"
+
+#. js-lingui-id: sgXsd0
+#: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
+msgid "Auth failure reason"
+msgstr ""
 
 #. js-lingui-id: P8fBlG
 #: src/modules/settings/security/components/SettingsSecuritySettings.tsx
@@ -3675,6 +3758,21 @@ msgstr "Mã quốc gia"
 msgid "Calls"
 msgstr "Cuộc gọi"
 
+#. js-lingui-id: YKJ+pg
+#: src/modules/activities/emails/hooks/useSendMessageCampaign.ts
+msgid "Campaign moved to {sendTime}"
+msgstr ""
+
+#. js-lingui-id: ANWhqH
+#: src/modules/activities/emails/hooks/useSendMessageCampaign.ts
+msgid "Campaign scheduled for {sendTime}"
+msgstr ""
+
+#. js-lingui-id: gL6+M4
+#: src/modules/activities/emails/hooks/useCancelMessageCampaign.ts
+msgid "Campaign unscheduled and back in your drafts"
+msgstr ""
+
 #. js-lingui-id: msssZq
 #: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectAboutForm.tsx
 msgid "Can't change API names for standard objects"
@@ -3937,16 +4035,6 @@ msgstr "Chuyển sang gói Pro?"
 msgid "Change to Yearly?"
 msgstr "Chuyển sang hàng năm?"
 
-#. js-lingui-id: LhVon3
-#: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
-msgid "Change visibility?"
-msgstr "Thay đổi khả năng hiển thị?"
-
-#. js-lingui-id: rnTfap
-#: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
-msgid "Changing visibility requires reconnecting this OAuth connection. You will be redirected to authorize it again."
-msgstr "Việc thay đổi khả năng hiển thị yêu cầu kết nối lại OAuth này. Bạn sẽ được chuyển hướng để ủy quyền lại."
-
 #. js-lingui-id: lfFsZ4
 #: src/modules/settings/workspace/components/SettingsWorkspaceEmailGroupSection.tsx
 msgid "Channels"
@@ -3959,6 +4047,7 @@ msgid "Chart"
 msgstr "Biểu đồ"
 
 #. js-lingui-id: rlwve5
+#: src/modules/ai/components/AiChatPageThreadHeader.tsx
 #: src/modules/ai/components/AiChatThreadItemMenu.tsx
 msgid "Chat actions"
 msgstr "Thao tác trò chuyện"
@@ -3969,6 +4058,7 @@ msgid "Chat conversation"
 msgstr "Cuộc trò chuyện"
 
 #. js-lingui-id: tDlhkF
+#: src/modules/ai/components/AiChatPageThreadHeader.tsx
 #: src/modules/ai/components/NavigationDrawerAiChatThreadItem.tsx
 msgid "Chat name"
 msgstr "Tên cuộc trò chuyện"
@@ -4371,11 +4461,6 @@ msgstr "Thu gọn thư mục"
 #: src/modules/navigation/hooks/useNavigationDrawerTogglePresentation.ts
 msgid "Collapse sidebar"
 msgstr "Thu gọn thanh bên"
-
-#. js-lingui-id: OQTRMK
-#: src/modules/ai/components/AiChatCollapseButton.tsx
-msgid "Collapse to side panel"
-msgstr "Thu gọn vào ngăn bên"
 
 #. js-lingui-id: jZlrte
 #: src/modules/advanced-text-editor/constants/AdvancedTextEditorBlockCatalog.ts
@@ -5060,6 +5145,11 @@ msgstr "Đã sao chép vào bảng tạm"
 msgid "Copy"
 msgstr "Sao chép"
 
+#. js-lingui-id: 6gAr5+
+#: src/modules/page-layout/widgets/call-recording-transcript/components/WidgetActionCallRecordingTranscript.tsx
+msgid "Copy audio download link"
+msgstr ""
+
 #. js-lingui-id: NmPNJJ
 #: src/modules/ai/components/CodeExecutionDisplay.tsx
 #: src/modules/ai/components/MarkdownCodeBlock.tsx
@@ -5366,8 +5456,13 @@ msgstr "Số lượng xác thực"
 msgid "Count unique values"
 msgstr "Số lượng giá trị duy nhất"
 
+#. js-lingui-id: GV0ZB5
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
+msgid "Counted again when the campaign sends, so this can change."
+msgstr ""
+
 #. js-lingui-id: tKTq/b
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 msgid "Counting recipients..."
 msgstr ""
 
@@ -5390,6 +5485,12 @@ msgstr "tạo"
 #: src/modules/views/view-picker/components/ViewPickerEditButton.tsx
 msgid "Create"
 msgstr "Tạo"
+
+#. js-lingui-id: QMLXwt
+#. placeholder {0}: objectMetadataItem.labelSingular
+#: src/pages/object-core/WorkflowCoreIndexPage.tsx
+msgid "Create a {0} to automate your work."
+msgstr ""
 
 #. js-lingui-id: fQFALn
 #: src/modules/ai/components/suggested-prompts/default-suggested-prompts.ts
@@ -5700,10 +5801,10 @@ msgstr "tín dụng"
 msgid "Credits"
 msgstr "Tín dụng"
 
-#. js-lingui-id: AaNZqp
+#. js-lingui-id: x4qjZw
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceCreditGrantModal.tsx
-msgid "Credits are added on top of the plan allowance and expire at the end of the current billing period. Unused granted credits carry over in full."
-msgstr "Tín dụng được cộng thêm vào phần hạn mức của gói và sẽ hết hạn vào cuối chu kỳ thanh toán hiện tại. Phần tín dụng được cấp nhưng chưa sử dụng sẽ được chuyển tiếp đầy đủ sang chu kỳ tiếp theo."
+msgid "Credits are added on top of the plan allowance and are spent only once it runs out. They carry over in full from one billing period to the next, and stay available until they are used up or, where an expiry is set, until the end of the billing period that expiry falls in."
+msgstr ""
 
 #. js-lingui-id: 0o2LpE
 #: src/modules/settings/billing/components/SettingsBillingCreditsSection.tsx
@@ -5720,10 +5821,10 @@ msgstr "tín dụng khả dụng (bao gồm {extraCreditsDisplay} bổ sung ngo�
 msgid "credits available during the trial period"
 msgstr "tín dụng khả dụng trong thời gian dùng thử"
 
-#. js-lingui-id: MnLFOj
+#. js-lingui-id: nbyiz/
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceCreditGrantsTable.tsx
-msgid "Credits handed out on top of the plan allowance"
-msgstr "Tín dụng được cấp thêm ngoài hạn mức của gói"
+msgid "Credits handed out on top of the plan allowance. They stay spendable until used up."
+msgstr ""
 
 #. js-lingui-id: iSuLEw
 #: src/modules/information-banner/components/billing/InformationBannerNoMoreCredits.tsx
@@ -5744,11 +5845,6 @@ msgstr "tín dụng đã sử dụng"
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
 msgid "Credits used"
 msgstr "Tín dụng đã sử dụng"
-
-#. js-lingui-id: 5oMPMN
-#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
-msgid "credits/period"
-msgstr "tín dụng/chu kỳ"
 
 #. js-lingui-id: e73uuf
 #: src/modules/settings/data-model/fields/forms/select/components/SettingsDataModelFieldSelectFormOptionRow.tsx
@@ -6688,6 +6784,16 @@ msgstr "Xóa Webhooks"
 msgid "Delete widget"
 msgstr "Xóa tiện ích"
 
+#. js-lingui-id: D+Bgvi
+#: src/modules/object-core/commands/hooks/useCoreObjectsCommands.ts
+msgid "Delete Workflow"
+msgstr ""
+
+#. js-lingui-id: Z299hR
+#: src/modules/object-core/commands/hooks/useCoreObjectsCommands.ts
+msgid "Delete Workflows"
+msgstr ""
+
 #. js-lingui-id: kYu0eF
 #: src/modules/settings/profile/components/DeleteWorkspace.tsx
 #: src/modules/settings/profile/components/DeleteWorkspace.tsx
@@ -6729,6 +6835,11 @@ msgstr "Đang xóa {objectLabel}"
 #: src/modules/settings/two-factor-authentication/components/DeleteTwoFactorAuthenticationMethod.tsx
 msgid "Deleting this method will remove it permanently from your account."
 msgstr "Xóa phương thức này sẽ xóa vĩnh viễn khỏi tài khoản của bạn."
+
+#. js-lingui-id: si+vZD
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
+msgid "Delivery"
+msgstr ""
 
 #. js-lingui-id: Ssdrw4
 #: src/modules/settings/ai/components/SettingsAiModelsTable.tsx
@@ -8540,6 +8651,7 @@ msgid "Expired"
 msgstr "Đã hết hạn"
 
 #. js-lingui-id: KnN1Tu
+#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceCreditGrantModal.tsx
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceCreditGrantsTable.tsx
 #: src/modules/settings/roles/role-assignment/components/SettingsRoleAssignmentTable.tsx
 msgid "Expires"
@@ -8686,6 +8798,12 @@ msgstr "Tạo bản ghi thất bại"
 msgid "Failed to create unsubscribe topic."
 msgstr "Không thể tạo chủ đề hủy đăng ký."
 
+#. js-lingui-id: atCmiF
+#: src/modules/object-core/workflows/hooks/useCreateCoreWorkflow.ts
+#: src/modules/object-core/workflows/hooks/useCreateCoreWorkflow.ts
+msgid "Failed to create workflow"
+msgstr ""
+
 #. js-lingui-id: AXveCw
 #: src/pages/settings/communications/SettingsWorkspaceCommunicationGroupChannelDetail.tsx
 msgid "Failed to delete email channel."
@@ -8710,6 +8828,11 @@ msgstr "Không thể xóa công cụ"
 #: src/pages/settings/communications/SettingsWorkspaceUnsubscribeTopicDetail.tsx
 msgid "Failed to delete unsubscribe topic."
 msgstr "Không thể xóa chủ đề hủy đăng ký."
+
+#. js-lingui-id: UUBrJf
+#: src/modules/object-core/workflows/hooks/useDeleteSelectedCoreWorkflows.ts
+msgid "Failed to delete workflows"
+msgstr ""
 
 #. js-lingui-id: NUmmdc
 #: src/modules/dashboards/hooks/useDuplicateDashboard.ts
@@ -9093,6 +9216,11 @@ msgstr "trường"
 msgid "Field"
 msgstr "Trường"
 
+#. js-lingui-id: 0Ractl
+#: src/modules/settings/data-model/object-details/components/tabs/SettingsObjectSearchSection.tsx
+msgid "Field added to search"
+msgstr ""
+
 #. js-lingui-id: LX8Pu1
 #: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
 msgid "Field deleted"
@@ -9112,6 +9240,11 @@ msgstr "Trường ở điểm đến"
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
 msgid "field permission"
 msgstr "quyền truy cập trường"
+
+#. js-lingui-id: YZK9mj
+#: src/modules/settings/data-model/object-details/components/tabs/SettingsObjectSearchSection.tsx
+msgid "Field removed from search"
+msgstr ""
 
 #. js-lingui-id: lcNTiF
 #: src/modules/side-panel/hooks/useOpenWidgetSettingsInSidePanel.ts
@@ -9328,6 +9461,11 @@ msgstr "\"Bộ lọc\""
 msgid "Finding {objectLabel}"
 msgstr "Đang tìm {objectLabel}"
 
+#. js-lingui-id: DWUicC
+#: src/modules/ai/constants/action-tool-status-labels.constant.ts
+msgid "Finding connected accounts"
+msgstr ""
+
 #. js-lingui-id: JmZ/+d
 #: src/modules/settings/roles/role-permissions/object-level-permissions/object-form/components/SettingsRolePermissionsObjectLevelObjectForm.tsx
 msgid "Finish"
@@ -9494,6 +9632,11 @@ msgstr "Đã sao chép địa chỉ chuyển tiếp vào bảng tạm"
 msgid "Found {objectLabel}"
 msgstr "Đã tìm thấy {objectLabel}"
 
+#. js-lingui-id: 5Vg0Q7
+#: src/modules/ai/constants/action-tool-status-labels.constant.ts
+msgid "Found connected accounts"
+msgstr ""
+
 #. js-lingui-id: 1hxId5
 #: src/modules/workflow/workflow-trigger/utils/cron-to-human/descriptors/getDayOfWeekDescription.ts
 msgid "fourth"
@@ -9529,7 +9672,7 @@ msgstr "\\"
 #: src/modules/activities/emails/components/CampaignDetailsFields.tsx
 #: src/modules/activities/emails/components/CampaignSentEnvelope.tsx
 #: src/modules/activities/emails/components/EmailComposerFields.tsx
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/components/WorkflowEditActionEmailBase.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/components/WorkflowRunStepLogsEmailDetail.tsx
 msgid "From"
@@ -9830,6 +9973,11 @@ msgstr "Cấp tín dụng"
 #: src/modules/settings/admin-panel/components/SettingsAdminServerAdminAccess.tsx
 msgid "Grant full access"
 msgstr "Cấp quyền truy cập đầy đủ"
+
+#. js-lingui-id: E0rSFg
+#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceCreditGrantsTable.tsx
+msgid "Granted"
+msgstr ""
 
 #. js-lingui-id: Tbxf45
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceCreditGrantModal.tsx
@@ -11248,7 +11396,6 @@ msgstr "Chuyển đến hiện tại"
 #. js-lingui-id: UpNpMK
 #: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
 #: src/pages/settings/applications/tabs/SettingsApplicationConnectionsSection.tsx
-#: src/pages/settings/applications/tabs/SettingsApplicationConnectionsSection.tsx
 msgid "Just for me"
 msgstr "Chỉ dành cho tôi"
 
@@ -11837,7 +11984,7 @@ msgstr ""
 
 #. js-lingui-id: 2BBAbc
 #: src/modules/page-layout/widgets/record-table/types/RecordTableWidgetLayoutViewType.ts
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 #: src/modules/views/types/ViewType.ts
 msgid "List"
 msgstr "Danh sách"
@@ -12119,11 +12266,6 @@ msgstr "Chế độ bảo trì"
 #: src/modules/settings/roles/role-permissions/permission-flags/hooks/useActionRolePermissionFlagConfig.ts
 msgid "Make HTTP requests to external APIs"
 msgstr ""
-
-#. js-lingui-id: icpEdc
-#: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
-msgid "Make private"
-msgstr "Đặt thành riêng tư"
 
 #. js-lingui-id: wckWOP
 #: src/modules/settings/billing/components/internal/ResourceCreditPriceSelector.tsx
@@ -12952,6 +13094,8 @@ msgid "Network error"
 msgstr "Lỗi mạng"
 
 #. js-lingui-id: qqeAJM
+#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceCreditGrantsTable.tsx
+#: src/modules/settings/admin-panel/constants/CreditGrantExpiryOptions.ts
 #: src/modules/settings/developers/utils/formatExpiration.ts
 msgid "Never"
 msgstr "Không bao giờ"
@@ -12982,6 +13126,7 @@ msgstr "Mới"
 #: src/modules/object-record/record-form/components/RecordCreationFormProvider.tsx
 #: src/modules/object-record/record-form/components/RecordCreationFormProvider.tsx
 #: src/modules/side-panel/hooks/useOpenRecordInSidePanel.ts
+#: src/pages/object-core/WorkflowCoreIndexPage.tsx
 msgid "New {0}"
 msgstr "{0} mới"
 
@@ -13026,6 +13171,9 @@ msgid "New calendar event"
 msgstr "Sự kiện lịch mới"
 
 #. js-lingui-id: hIQkLb
+#: src/modules/ai/components/AiChatPageHeader.tsx
+#: src/modules/ai/components/AiChatPageThreadHeader.tsx
+#: src/modules/ai/components/AiChatPageThreadHeader.tsx
 #: src/modules/ai/components/NavigationDrawerAiChatThreadItem.tsx
 msgid "New chat"
 msgstr "Trò chuyện mới"
@@ -13036,7 +13184,6 @@ msgid "New Company"
 msgstr "Doanh nghiệp mới"
 
 #. js-lingui-id: +HY5kX
-#: src/modules/ai/components/AiChatPageHeader.tsx
 #: src/modules/side-panel/components/SidePanelTopBarRightCornerIcon.tsx
 msgid "New conversation"
 msgstr "Cuộc trò chuyện mới"
@@ -13246,6 +13393,18 @@ msgstr "Thứ chín"
 #: src/pages/settings/applications/tabs/SettingsApplicationFrontComponentSettingsTab.tsx
 msgid "No"
 msgstr "Không"
+
+#. js-lingui-id: AZa0Mm
+#. placeholder {0}: objectMetadataItem.labelPlural
+#: src/pages/object-core/WorkflowCoreIndexPage.tsx
+msgid "No {0} found"
+msgstr ""
+
+#. js-lingui-id: uZ8YLp
+#. placeholder {0}: objectMetadataItem.labelPlural
+#: src/pages/object-core/WorkflowCoreIndexPage.tsx
+msgid "No {0} match your filters. Try removing some of them."
+msgstr ""
 
 #. js-lingui-id: 7YGRoE
 #: src/modules/ui/input/components/SelectInput.tsx
@@ -13655,7 +13814,7 @@ msgstr "Không giới hạn"
 
 #. js-lingui-id: nivaRq
 #: src/modules/activities/emails/components/CampaignSentEnvelope.tsx
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 msgid "No list"
 msgstr "Không có danh sách"
 
@@ -13880,13 +14039,13 @@ msgstr "Không có trường chọn"
 
 #. js-lingui-id: Ylz+jb
 #: src/modules/activities/emails/components/CampaignSentEnvelope.tsx
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 msgid "No sender"
 msgstr "Không có người gửi"
 
-#. js-lingui-id: 5UEIxk
+#. js-lingui-id: dRi20n
 #: src/modules/activities/emails/components/CampaignDetailsFields.tsx
-msgid "No sending address is available. Connect a verified sending domain in Settings before this campaign can go out."
+msgid "No sending address. Connect a verified domain in Settings."
 msgstr ""
 
 #. js-lingui-id: JkPTT8
@@ -13896,7 +14055,7 @@ msgstr "Không tìm thấy quản trị viên máy chủ nào."
 
 #. js-lingui-id: eeoVfm
 #: src/modules/activities/emails/components/CampaignSentEnvelope.tsx
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 msgid "No subject"
 msgstr "Không có chủ đề"
 
@@ -14025,6 +14184,11 @@ msgstr "Chưa có lần chạy workflows nào"
 #: src/modules/object-record/record-table/empty-state/utils/getEmptyStateTitle.ts
 msgid "No workflow versions yet"
 msgstr "Chưa có phiên bản workflows nào"
+
+#. js-lingui-id: 0R8Pxd
+#: src/modules/object-core/workflows/hooks/useDeleteSelectedCoreWorkflows.ts
+msgid "No workflows were deleted"
+msgstr ""
 
 #. js-lingui-id: Q4dFjT
 #: src/pages/settings/admin-panel/SettingsAdminWorkspacesStatus.tsx
@@ -14195,6 +14359,11 @@ msgstr "Chưa đồng bộ hóa"
 #: src/modules/side-panel/pages/page-layout/components/SidePanelPageLayoutRecordPageWidgetTypeSelect.tsx
 msgid "Note"
 msgstr "Ghi chú"
+
+#. js-lingui-id: yBYKk1
+#: src/modules/command-menu-item/engine-command/record/single-record/message-campaign/components/CancelMessageCampaignSingleRecordCommand.tsx
+msgid "Nothing has gone out yet. The campaign returns to your drafts and you can edit or schedule it again."
+msgstr ""
 
 #. js-lingui-id: VngD1z
 #: src/pages/settings/applications/SettingsApplicationDetails.tsx
@@ -14500,7 +14669,6 @@ msgid "On which object(s) should this trigger be available"
 msgstr "Trên đối tượng nào cần kích hoạt này sẽ khả dụng"
 
 #. js-lingui-id: gukxZ5
-#: src/modules/ai/components/AiChatPageHeader.tsx
 #: src/modules/settings/admin-panel/chats/components/SettingsAdminChatsTableRow.tsx
 msgid "Onboarding"
 msgstr "Thiết lập ban đầu"
@@ -15091,6 +15259,7 @@ msgid "Path"
 msgstr "Đường dẫn"
 
 #. js-lingui-id: IgrLD/
+#: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingAudioPlayer.tsx
 #: src/modules/settings/event-logs/components/SettingsLogs.tsx
 msgid "Pause"
 msgstr "Tạm dừng"
@@ -15255,6 +15424,11 @@ msgstr "Đã sao chép số điện thoại vào bảng tạm"
 msgid "Pick a {0} record"
 msgstr "Chọn một bản ghi {0}"
 
+#. js-lingui-id: T1yaeQ
+#: src/modules/side-panel/pages/send-campaign/utils/buildCampaignDeliveryHint.ts
+msgid "Pick a send time in the future."
+msgstr ""
+
 #. js-lingui-id: JqqNlC
 #: src/modules/side-panel/utils/getSidePanelSubPageTitle.ts
 msgid "Pick a view"
@@ -15360,7 +15534,13 @@ msgstr "Dự kiến vào {formattedStartDate}"
 msgid "Plans"
 msgstr "Gói"
 
+#. js-lingui-id: T91vKp
+#: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingAudioPlayer.tsx
+msgid "Play"
+msgstr ""
+
 #. js-lingui-id: XdRQm7
+#: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingAudioPlayer.tsx
 #: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingVideoPlayer.tsx
 msgid "Playback failed"
 msgstr "Phát lại thất bại"
@@ -15937,7 +16117,7 @@ msgid "Recipient"
 msgstr "Người nhận"
 
 #. js-lingui-id: F+BB7w
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 msgid "Recipient count unavailable"
 msgstr ""
 
@@ -15947,7 +16127,7 @@ msgid "recipient@example.com"
 msgstr "recipient@example.com"
 
 #. js-lingui-id: yPrbsy
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/components/WorkflowRunStepLogsEmailDetail.tsx
 msgid "Recipients"
 msgstr "Người nhận"
@@ -15977,10 +16157,10 @@ msgstr "Các mô hình được đề xuất"
 msgid "Reconnect"
 msgstr "Kết nối lại"
 
-#. js-lingui-id: NSOx3j
+#. js-lingui-id: PrI9jr
 #: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
-msgid "Reconnect and change visibility"
-msgstr "Kết nối lại và thay đổi khả năng hiển thị"
+msgid "Reconnect and share"
+msgstr ""
 
 #. js-lingui-id: XsIxsL
 #: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
@@ -16494,6 +16674,11 @@ msgstr "Yêu cầu xác thực"
 msgid "Required"
 msgstr "Bắt buộc"
 
+#. js-lingui-id: r38Vo4
+#: src/modules/side-panel/pages/send-campaign/utils/buildCampaignSendButtonTitle.ts
+msgid "Reschedule campaign"
+msgstr ""
+
 #. js-lingui-id: Vae65A
 #: src/modules/ai/components/suggested-prompts/contextual-suggested-prompts.ts
 msgid "Research this company"
@@ -16655,6 +16840,7 @@ msgstr "Tiếp tục"
 
 #. js-lingui-id: 6gRgw8
 #: src/modules/ai/components/AiChatErrorMessage.tsx
+#: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingAudioPlayer.tsx
 #: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingVideoPlayer.tsx
 #: src/modules/settings/admin-panel/health-status/components/SettingsAdminQueueJobRowDropdownMenu.tsx
 #: src/modules/settings/admin-panel/health-status/components/SettingsAdminRetryJobsConfirmationModal.tsx
@@ -16969,11 +17155,21 @@ msgstr "Lịch trình"
 msgid "Schedule a maintenance window and notify all users"
 msgstr "Lên lịch khung thời gian bảo trì và thông báo cho tất cả người dùng"
 
+#. js-lingui-id: MGaW9O
+#: src/modules/side-panel/pages/send-campaign/utils/buildCampaignSendButtonTitle.ts
+msgid "Schedule campaign"
+msgstr ""
+
 #. js-lingui-id: 4ba0NE
 #: src/modules/activities/calendar/components/CalendarEventCallRecorderAvatar.tsx
 #: src/modules/settings/billing/hooks/useBillingPlanActions.ts
 msgid "Scheduled"
 msgstr "Đã lên lịch"
+
+#. js-lingui-id: JizhXE
+#: src/modules/activities/emails/components/CampaignSentEnvelope.tsx
+msgid "Scheduled at"
+msgstr ""
 
 #. js-lingui-id: 7oCJuI
 #: src/modules/settings/billing/components/internal/SettingsBillingSubscriptionInfoCard.tsx
@@ -17110,11 +17306,6 @@ msgstr "Tìm kiếm một loại"
 msgid "Search a view..."
 msgstr "Tìm kiếm một chế độ xem..."
 
-#. js-lingui-id: N7Z3jc
-#: src/modules/settings/data-model/object-details/components/tabs/SettingsObjectSearchSection.tsx
-msgid "Search across indexed fields..."
-msgstr "Tìm kiếm trong các trường đã lập chỉ mục..."
-
 #. js-lingui-id: +7s4fw
 #: src/modules/settings/roles/role-assignment/components/SettingsRoleAssignmentEntityPickerDropdown.tsx
 msgid "Search agents"
@@ -17233,6 +17424,11 @@ msgstr "siêu dữ liệu trường tìm kiếm"
 msgid "Search fields"
 msgstr "Tìm kiếm các trường"
 
+#. js-lingui-id: IQAn53
+#: src/modules/settings/data-model/object-details/components/tabs/SettingsObjectSearchSection.tsx
+msgid "Search fields..."
+msgstr ""
+
 #. js-lingui-id: rXrG+N
 #: src/modules/settings/accounts/components/message-folders/SettingsAccountsMessageFoldersCard.tsx
 msgid "Search folders..."
@@ -17348,7 +17544,6 @@ msgid "seat / month - billed yearly"
 msgstr "chỗ ngồi / tháng - thanh toán hàng năm"
 
 #. js-lingui-id: MpFIca
-#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
 #: src/modules/settings/billing/components/SettingsBillingSubscriptionInfo.tsx
 msgid "seats"
 msgstr "suất"
@@ -17488,6 +17683,11 @@ msgstr "Xem cấu trúc dữ liệu của bạn dưới dạng sơ đồ tương
 #: src/pages/settings/applications/components/SettingsApplicationTableRow.tsx
 msgid "Seeded"
 msgstr "Đã khởi tạo"
+
+#. js-lingui-id: AhNP40
+#: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingAudioPlayer.tsx
+msgid "Seek"
+msgstr ""
 
 #. js-lingui-id: 5iyrla
 #: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingTranscriptEntryListItem.tsx
@@ -17755,8 +17955,13 @@ msgstr "Gửi"
 msgid "Send an invite email to your team"
 msgstr "Gửi email mời đến đội của bạn"
 
+#. js-lingui-id: S147dq
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
+msgid "Send at"
+msgstr ""
+
 #. js-lingui-id: WRLt0i
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/utils/buildCampaignSendButtonTitle.ts
 msgid "Send campaign"
 msgstr ""
 
@@ -17786,6 +17991,16 @@ msgstr "Gửi email qua các tài khoản đã kết nối"
 #: src/modules/workflow/workflow-steps/workflow-actions/components/WorkflowEditActionCreateCalendarEvent.tsx
 msgid "Send invitations"
 msgstr "Gửi lời mời"
+
+#. js-lingui-id: RmmhAh
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
+msgid "Send later"
+msgstr ""
+
+#. js-lingui-id: NpEm3p
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
+msgid "Send now"
+msgstr ""
 
 #. js-lingui-id: doZzL7
 #: src/modules/side-panel/pages/send-campaign-test/components/SidePanelSendCampaignTestPage.tsx
@@ -17818,9 +18033,19 @@ msgstr "Đang gửi email"
 msgid "Sending request..."
 msgstr "Đang gửi yêu cầu..."
 
+#. js-lingui-id: YguCRV
+#: src/modules/side-panel/pages/send-campaign/utils/buildCampaignDeliveryHint.ts
+msgid "Sending starts {formattedSendTime}. You can cancel before then."
+msgstr ""
+
 #. js-lingui-id: 2l+PSH
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/utils/buildCampaignDeliveryHint.ts
 msgid "Sending starts right away and cannot be undone."
+msgstr ""
+
+#. js-lingui-id: w+ywgn
+#: src/modules/side-panel/pages/send-campaign/utils/buildCampaignDeliveryHint.ts
+msgid "Sending starts right away, ahead of the time this campaign is holding."
 msgstr ""
 
 #. js-lingui-id: IoAuJG
@@ -18028,6 +18253,11 @@ msgstr "Chia sẻ liên kết này để mời người dùng tham gia không gi
 msgid "Share with workspace"
 msgstr "Chia sẻ với không gian làm việc"
 
+#. js-lingui-id: lX0SIS
+#: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
+msgid "Share with workspace?"
+msgstr ""
+
 #. js-lingui-id: gaJRur
 #: src/pages/settings/applications/tabs/SettingsApplicationRegistrationDistributionTab.tsx
 msgid "Share your app to other workspaces without pushing it on the marketplace"
@@ -18042,6 +18272,11 @@ msgstr "Email dùng chung"
 #: src/pages/settings/applications/components/SettingsApplicationRegistrationShareLinkButtons.tsx
 msgid "Sharing link copied to clipboard"
 msgstr "Đã sao chép liên kết chia sẻ vào bảng tạm"
+
+#. js-lingui-id: Xzq3Vx
+#: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
+msgid "Sharing this connection with the workspace requires reconnecting it. You will be redirected to authorize it again."
+msgstr ""
 
 #. js-lingui-id: RRXpo1
 #: src/modules/settings/data-model/fields/forms/number/constants/NumberDataModelSelectOptions.ts
@@ -18372,6 +18607,7 @@ msgstr "Một số dữ liệu nhật ký đã bị loại bỏ để phù hợp
 
 #. js-lingui-id: nwtY4N
 #: src/pages/auth/Authorize.tsx
+#: src/pages/object-core/WorkflowCoreIndexPage.tsx
 msgid "Something went wrong"
 msgstr "Đã xảy ra sự cố"
 
@@ -18776,7 +19012,7 @@ msgstr ""
 #: src/modules/activities/emails/components/CampaignSentEnvelope.tsx
 #: src/modules/activities/emails/components/EmailComposerFields.tsx
 #: src/modules/activities/emails/components/EmailComposerFields.tsx
-#: src/modules/side-panel/pages/send-campaign/components/SidePanelSendCampaignPage.tsx
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/components/WorkflowEditActionEmailBase.tsx
 msgid "Subject"
 msgstr "Chủ đề"
@@ -20786,6 +21022,12 @@ msgstr "Chưa thanh toán"
 msgid "Unpin tab"
 msgstr "Bỏ ghim tab"
 
+#. js-lingui-id: 1rXqkB
+#: src/modules/command-menu-item/engine-command/record/single-record/message-campaign/components/CancelMessageCampaignSingleRecordCommand.tsx
+#: src/modules/command-menu-item/engine-command/record/single-record/message-campaign/components/CancelMessageCampaignSingleRecordCommand.tsx
+msgid "Unschedule Campaign"
+msgstr ""
+
 #. js-lingui-id: SMaFdc
 #: src/modules/settings/unsubscribers/components/SettingsUnsubscribePreview.tsx
 #: src/pages/settings/communications/SettingsWorkspaceCommunications.tsx
@@ -21876,6 +22118,12 @@ msgstr "Xem bản demo thành viên"
 msgid "We are currently encountering issues with this app, its behavior may be degraded while we work on a fix."
 msgstr "Hiện tại chúng tôi đang gặp sự cố với ứng dụng này; trong khi chúng tôi khắc phục, hoạt động của ứng dụng có thể bị ảnh hưởng."
 
+#. js-lingui-id: Pk5zT3
+#. placeholder {0}: objectMetadataItem.labelPlural
+#: src/pages/object-core/WorkflowCoreIndexPage.tsx
+msgid "We could not load your {0}. Please try again later."
+msgstr ""
+
 #. js-lingui-id: icGmU/
 #: src/pages/settings/applications/utils/getClaimErrorContent.ts
 msgid "We could not reach the package registry to verify the package provenance. Please try again in a few minutes."
@@ -22023,11 +22271,6 @@ msgstr "Tuần"
 #: src/modules/side-panel/pages/page-layout/utils/getDateGranularityPluralLabel.ts
 msgid "weeks"
 msgstr ""
-
-#. js-lingui-id: WKHqM+
-#: src/modules/settings/data-model/object-details/components/tabs/SettingsObjectSearchSection.tsx
-msgid "Weight"
-msgstr "Trọng số"
 
 #. js-lingui-id: nTuObL
 #: src/pages/auth/SignInUp.tsx
@@ -22353,7 +22596,6 @@ msgstr "Thành viên không gian làm việc"
 
 #. js-lingui-id: PHF7zj
 #: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
-#: src/pages/settings/applications/tabs/SettingsApplicationConnectionsSection.tsx
 #: src/pages/settings/applications/tabs/SettingsApplicationConnectionsSection.tsx
 msgid "Workspace shared"
 msgstr "Dùng chung trong không gian làm việc"
